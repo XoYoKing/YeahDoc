@@ -1,0 +1,124 @@
+﻿/*
+    作者：vikingleo | http://www.vkleo.com | QQ:250511200
+    时间：2016-11-20 17:10:13
+    说明：重置元素样式
+*/
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  -moz-text-size-adjust: 100% !important;
+  -ms-text-size-adjust: 100% !important;
+  -webkit-text-size-adjust: 100% !important;
+  text-size-adjust: 100% !important;
+  font-size: 14px;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+table,
+tr,
+td,
+span,
+div,
+article,
+section,
+aside,
+em,
+b,
+label,
+a,
+button,
+textarea,
+footer,
+nav,
+img {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  margin-bottom: 5px;
+}
+p {
+  line-height: 1em;
+}
+img {
+  border: 0;
+  border: none;
+  max-width: 100%;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+a:hover,
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+a:active {
+  color: #555;
+}
+button {
+  background-color: #fff;
+  border-color: #ccc;
+  border-style: solid;
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+button:focus {
+  outline: none;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+ul li,
+ol li {
+  list-style-type: none;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: none;
+}
+/*# sourceMappingURL=reset.css.map */
