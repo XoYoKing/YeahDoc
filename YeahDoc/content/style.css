@@ -1,0 +1,35 @@
+﻿/*
+    作者：vikingleo | http://www.vkleo.com | QQ:250511200
+    创建时间：2016-10-30 19:36:50
+    描述：全局引入
+*/
+/*
+    作者：vikingleo | http://www.vkleo.com | QQ:250511200
+    创建时间：2016-11-20 17:50:13
+    描述：自定义bootstrap的样式
+*/
+.navbar {
+  border-radius: 0;
+}
+body {
+  font-family: 'Microsoft YaHei';
+}
+/*
+    作者：vikingleo | http://www.vkleo.com | QQ:250511200
+    创建时间：2016-11-20 17:27:41
+    描述：个人主页
+*/
+.item-list .thumbnail {
+  margin-bottom: 20px;
+}
+.btn-add-item {
+  height: 108px;
+  text-align: center;
+  line-height: 108px;
+  font-size: 20px;
+  color: #ccc;
+}
+.item-add-form .input-group {
+  margin-bottom: 15px;
+}
+/*# sourceMappingURL=style.css.map */

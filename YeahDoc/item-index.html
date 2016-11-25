@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>首页</title>
+
+    <link href="content/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="content/bootstrap/flat/css/flat-ui.css" rel="stylesheet" />
+    <link href="content/public/reset.min.css" rel="stylesheet" />
+    <link href="content/public/public.min.css" rel="stylesheet" />
+    <link href="content/style.css" rel="stylesheet" />
+    <script src="http://static.vkleo.com/js/angular.min.js"></script>
+</head>
+<body ng-app="">
+    <div ng-include="'_header.html'"></div>
+
+    <div class="container mt15 item-list">
+        <div class="row">
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <a href=" {:u('home />Item/show',array('item_id'=>$item['item_id']))}" class="thumbnail p20">
+                    <h3 class="nmt">{$item.item_name}</h3>
+                    <p class="toh" title="{$item.item_description}">{$item.item_descriptionitem_descriptionitem_descriptionitem_description}</p>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <a class="thumbnail btn-add-item" href="{:U('Home/Item/add')}" title="{$Think.Lang.add_an_item}">
+                    <span class="glyphicon glyphicon-plus"></span> 新增文档
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <a class="thumbnail btn-add-item" href="{:U('Home/Item/add')}" title="{$Think.Lang.add_an_item}">
+                    <span class="glyphicon glyphicon-plus"></span> 新增文档
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <a class="thumbnail btn-add-item" href="{:U('Home/Item/add')}" title="{$Think.Lang.add_an_item}">
+                    <span class="glyphicon glyphicon-plus"></span> 新增文档
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <a class="thumbnail btn-add-item" href="{:U('Home/Item/add')}" title="{$Think.Lang.add_an_item}">
+                    <span class="glyphicon glyphicon-plus"></span> 新增文档
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <a class="thumbnail btn-add-item" href="{:U('Home/Item/add')}" title="{$Think.Lang.add_an_item}">
+                    <span class="glyphicon glyphicon-plus"></span> 新增文档
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <a class="thumbnail btn-add-item" href="{:U('Home/Item/add')}" title="{$Think.Lang.add_an_item}">
+                    <span class="glyphicon glyphicon-plus"></span> 新增文档
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <a class="thumbnail btn-add-item" href="{:U('Home/Item/add')}" title="{$Think.Lang.add_an_item}">
+                    <span class="glyphicon glyphicon-plus"></span> 新增文档
+                </a>
+            </div>
+        </div>
+    </div>
+    <div ng-include="'_footer.html'"></div>
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="content/bootstrap/flat/js/flat-ui.js"></script>
+
+</body>
+</html>

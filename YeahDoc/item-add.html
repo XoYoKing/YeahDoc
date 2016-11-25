@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>首页</title>
+
+    <link href="content/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="content/bootstrap/flat/css/flat-ui.css" rel="stylesheet" />
+    <link href="content/public/reset.min.css" rel="stylesheet" />
+    <link href="content/public/public.min.css" rel="stylesheet" />
+    <link href="content/style.css" rel="stylesheet" />
+    <script src="http://static.vkleo.com/js/angular.min.js"></script>
+</head>
+<body ng-app="">
+    <div ng-include="'_header.html'"></div>
+
+
+    <div class="container mt30 ">
+        <div class="jumbotron">
+            <h2 class="text-center">创建新文档</h2>
+            <hr />
+            <div class="row">
+                <div class="col-md-offset-3 col-sm-offset-3 col-md-6 col-sm-6 col-xs-12">
+                    <form class="item-add-form">
+                        <div class="input-group">
+                            <span class="input-group-addon">文档名称</span>
+                            <input type="text" class="form-control" placeholder="" />
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-addon">文档描述</span>
+                            <input type="text" class="form-control" placeholder="" />
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-addon">访问密码</span>
+                            <input type="password" class="form-control" placeholder="" />
+                        </div>
+                    </form>
+                    <div class="row text-center mb15">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <button class="btn btn-embossed btn-primary btn-block">
+                                保存
+                            </button>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <button class="btn btn-embossed  btn-default btn-block">返回</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+       
+    </div>
+    <div ng-include="'_footer.html'"></div>
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="content/bootstrap/flat/js/flat-ui.js"></script>
+
+</body>
+</html>
